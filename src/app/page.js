@@ -101,15 +101,15 @@
 //     </div>
 //   );
 // }
+'use client'
 
-
-import Hero from '../components/sections/Hero'
-import Categories from '../components/sections/Categories'
-import Recipes from '../components/sections/Recipes'
-import ChefIntro from '../components/sections/ChefIntro'
-import FeaturedRecipes from '../components/sections/FeaturedRecipes'
-import Instagram from '../components/sections/Instagram'
-import Newsletter from '../components/sections/Newsletter'
+import Hero from './components/sections/Hero'
+import Categories from './components/sections/Categories'
+import Recipes from './components/sections/Recipes'
+import ChefIntro from './components/sections/ChefIntro'
+import FeaturedRecipes from './components/sections/FeaturedRecipes'
+import Instagram from './components/sections/Instagram'
+import Newsletter from './components/sections/Newsletter'
 
 export default function Home() {
   return (

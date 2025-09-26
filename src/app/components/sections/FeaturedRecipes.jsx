@@ -1,5 +1,5 @@
 import Card from '../common/Card'
-import { recipes } from '../../lib/recipes'
+import { recipes } from '../../../lib/recipes'
 
 export default function FeaturedRecipes() {
     const featuredRecipes = recipes.slice(9, 17)

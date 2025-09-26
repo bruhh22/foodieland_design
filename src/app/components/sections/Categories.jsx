@@ -1,4 +1,4 @@
-import { categories } from '../../lib/categories'
+import { categories } from '../../../lib/categories'
 
 export default function Categories() {
     return (
